@@ -19,7 +19,7 @@ public class News {
     private static final Logger LOG = LoggerFactory.getLogger(News.class);
 
     @ValueMapValue
-    private String title;
+    private String newsHeadline;
 
     @ValueMapValue
     private String newsDetail;
@@ -36,12 +36,10 @@ public class News {
 
     @PostConstruct
     protected void init() {
-        LOG.info("------------inside Author model init method----------------");
+        LOG.info("------------inside News model init method----------------");
     }
 
-    public String getTitle() {
-        return title;
-    }
+
 
     public String getNewsDetail() {
         return newsDetail;
@@ -53,6 +51,10 @@ public class News {
 
     public String getNewsImg() {
         return newsImg;
+    }
+
+    public String getNewsHeadline() {
+        return newsHeadline;
     }
 
     public List<String> getNewsTitle() {

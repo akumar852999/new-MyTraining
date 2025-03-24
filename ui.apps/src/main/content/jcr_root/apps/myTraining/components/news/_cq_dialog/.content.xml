@@ -11,12 +11,12 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <title
+                    <newsHeadline
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
                         fieldDescription="Enter news Headlinne"
                         fieldLabel="News Headline"
-                        name="./title"/>
+                        name="./newsHeadline"/>
                     <newsDetail
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
